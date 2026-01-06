@@ -9,7 +9,7 @@ select
 from bookings b
 inner join users as u
     on b.user_id = u.user_id
-inner join vehicles v
+inner join vehicles as v
     on b.vehicle_id = v.vehicle_id;
 
 
